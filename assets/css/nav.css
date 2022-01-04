@@ -1,14 +1,15 @@
 #navbar{
-    height: 50px;
     background-color: #cccc;
     font-size: 20px;
 }
 
 #navbar ul{
+    width: 100%;
     display: flex;
-    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar li{
-    margin-right: 15px;
+    margin-right: 40px;
 }
