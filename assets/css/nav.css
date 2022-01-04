@@ -1,0 +1,14 @@
+#navbar{
+    height: 50px;
+    background-color: #cccc;
+    font-size: 20px;
+}
+
+#navbar ul{
+    display: flex;
+    margin-left: 5px;
+}
+
+#navbar li{
+    margin-right: 15px;
+}
