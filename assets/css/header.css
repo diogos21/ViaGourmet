@@ -1,0 +1,16 @@
+header{
+    height: 100vh;
+    background: transparent url('../img/header.png') no-repeat;
+    /* background-size: cover; */
+
+}
+
+#banner {
+    position: relative;
+    background-size: cover;
+}
+
+#onda {
+    position: absolute;
+    bottom: 0;
+}
