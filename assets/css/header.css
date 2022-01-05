@@ -1,7 +1,8 @@
 header{
     height: 100vh;
-    background: transparent url('../img/header.png') no-repeat;
-    /* background-size: cover; */
+    background: transparent url('../img/header.png') no-repeat center;
+    background-size: cover;
+    background-size: 2100px;
 
 }
 
@@ -10,7 +11,7 @@ header{
     background-size: cover;
 }
 
-#onda {
+/* #onda {
     position: absolute;
     bottom: 0;
-}
+} */
