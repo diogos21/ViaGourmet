@@ -5,3 +5,10 @@
 #img2{
     margin-bottom: 29px;
 }
+
+button{
+    height: 30px;
+    border-radius: 12px;
+    background-color: #72b221;
+    color: white;
+}
