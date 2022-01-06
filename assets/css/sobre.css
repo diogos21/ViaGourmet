@@ -1,14 +1,62 @@
 .sobre{
+    background-color: #f5f5f5;
+    display: flex;
+    width: 100%;
+    /* margin-left: 15%; */
+    padding: 100px 0px;
+}
+
+.imagens{
     display: flex;
 }
 
-#img2{
+#imagem2{
     margin-bottom: 29px;
 }
 
-button{
-    height: 30px;
-    border-radius: 12px;
-    background-color: #72b221;
-    color: white;
+#layout-direito img{
+    margin-left: 15%;
 }
+
+.texto{
+    width: 30%;
+    margin-left: 8%;
+}
+
+.texto h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+    color: #1c1c1c;
+}
+
+.texto p{
+    margin-bottom: 5%;
+    font-size: 20px;
+
+    color: #6a6a6a;
+}
+
+.texto input{
+    width: 128px;
+    height: 53px;
+
+    font-size: 16px;
+    font-weight: bold;
+    
+    color: white;
+    background-color: #72b221;
+
+    border-radius: 25px;
+}
+
+.texto hr{
+    width: 30%;
+    margin-left: 0;
+    margin-bottom: 35px;
+    height: 2px;
+
+    background-color: #72b221;
+}
+
