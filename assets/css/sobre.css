@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
+
 .sobre{
     background-color: #f5f5f5;
     display: flex;
     width: 100%;
     /* margin-left: 15%; */
     padding: 100px 0px;
+    margin: auto;
+
+    font-family: 'Dosis';
+}
+
+.content-about{
+    display: flex;
+    width: 75%;
+    margin: auto;
 }
 
 .imagens{
@@ -19,8 +30,8 @@
 }
 
 .texto{
-    width: 30%;
-    margin-left: 8%;
+    width: 50%;
+    margin-left: 15%;
 }
 
 .texto h2{
@@ -33,7 +44,9 @@
 
 .texto p{
     margin-bottom: 5%;
+
     font-size: 20px;
+    font-weight: 500;
 
     color: #6a6a6a;
 }

@@ -1,0 +1,63 @@
+.aplicacoes{
+    width: 50%;
+    margin: auto;
+    padding: 100px 0px;
+    font-family: 'Dosis';
+}
+
+.texto-aplicacoes{
+    text-align: center;
+}
+
+.texto-aplicacoes h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+    color: #1c1c1c;
+}
+
+.texto-aplicacoes p{
+    font-size: 20px;
+    color: #6a6a6a;
+}
+
+.texto-aplicacoes hr{
+    width: 12%;
+    
+    margin-bottom: 35px;
+    margin-top: 12px;
+    height: 2px;
+
+    background-color: #72b221;
+}
+
+#link-aplicacoes{
+    font-size: 20px;
+    font-weight: bold;
+    color: #AB193E;
+}
+
+.imagens-aplicacoes{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.imagens-aplicacoes div{
+    margin-left: 10%;
+    text-align: center;
+
+    font-size: 25px;
+    
+
+    color: #6a6a6a;
+}
+
+.imagens-aplicacoes p{
+    margin-top: 20px;
+}
+
+#cake-img{
+    margin-top: 11px;
+}
