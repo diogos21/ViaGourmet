@@ -62,6 +62,13 @@
     background-color: #72b221;
 
     border-radius: 25px;
+    /*Luizão abaixo*/
+    border: none;
+    outline: none;
+    top: 525.5px;
+    left: 0px;
+    position: static;
+    cursor: pointer;
 }
 
 .texto hr{
