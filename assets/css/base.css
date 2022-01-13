@@ -3,6 +3,10 @@
     font-size: 62.50%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     min-height: 100%;

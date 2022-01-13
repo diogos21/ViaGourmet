@@ -42,7 +42,7 @@
     height: 52px;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     font-size: 26px;
     font-family: 'Poppins';
@@ -72,12 +72,8 @@
     color: white;
     background-color: #72b221;
     border-radius: 25px;
-    /*Luizão abaixo*/
     border: none;
     outline: none;
-    /* top: 525.5px;
-    left: 0px;
-    position: static; */
     padding: 0;
     cursor: pointer;
 }
