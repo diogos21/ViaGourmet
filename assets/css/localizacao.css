@@ -1,0 +1,40 @@
+.localizacao {
+    width: 100%;
+    margin: auto;
+    padding: 100px 0px 200px 0px;
+    font-family: 'Dosis';
+}
+
+.wrap-localizacao {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.texto-localizacao {
+    text-align: center;
+}
+
+.texto-localizacao h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #1c1c1c;
+}
+
+.texto-localizacao p {
+    font-size: 20px;
+    color: #6a6a6a;
+}
+
+.texto-localizacao hr {
+    width: 12%;
+    margin-bottom: 35px;
+    margin-top: 12px;
+    height: 2px;
+    background-color: #72b221;
+}
+
+iframe {
+    width: 1200px;
+    border-radius: 50px;
+}

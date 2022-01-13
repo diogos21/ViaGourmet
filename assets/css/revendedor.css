@@ -1,0 +1,70 @@
+.revendedor {
+    width: 100%;
+    height: 517px;
+    background: transparent url('../img/revendedor-img.svg') no-repeat center;
+    background-size: cover;
+    font-family: 'Dosis';
+    position: relative;
+}
+
+.revendedor::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 50%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.wrap-revendedor {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.texto-revendedor {
+    text-align: center;
+}
+
+.texto-revendedor h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.texto-revendedor p {
+    font-size: 20px;
+    color: white;
+}
+
+.texto-revendedor strong {
+    font-size: 20px;
+    color: white;
+}
+
+.btn-revendedor input {
+    margin-top: 25px;
+    width: 185px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #06832F;
+    border-radius: 25px;
+    /*Luizão abaixo*/
+    border: none;
+    outline: none;
+    top: 525.5px;
+    left: 0px;
+    position: static;
+    cursor: pointer;
+}
