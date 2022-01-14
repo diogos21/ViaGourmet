@@ -60,11 +60,60 @@
 
 /* Add rounded corners to the top left and the top right corner of the image */
 
-.img-fruta {
+.img-fruta1 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/acerola-card.svg');
+}
+
+.img-fruta2 {
     border-radius: 5px 5px 0 0;
     width: 277px;
     height: 208px;
     background-image: url('../img/abacaxi-card.png');
+}
+
+.img-fruta3 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/morango-card.png');
+}
+
+.img-fruta4 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/manga-card.png');
+}
+
+.img-fruta5 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/amora-card.png');
+}
+
+.img-fruta6 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/vitamina-card.png');
+}
+
+.img-fruta7 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/detox-card.png');
+}
+
+.img-fruta8 {
+    border-radius: 5px 5px 0 0;
+    width: 277px;
+    height: 208px;
+    background-image: url('../img/acai-card.png');
 }
 
 .container h1 {
