@@ -7,6 +7,3 @@
 @import './localizacao.css';
 @import './revendedor.css';
 @import './contato.css';
-html {
-    scroll-behavior: smooth;
-}
