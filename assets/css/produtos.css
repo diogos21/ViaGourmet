@@ -64,7 +64,7 @@
     border-radius: 5px 5px 0 0;
     width: 277px;
     height: 208px;
-    background-image: url('assets/img/abacaxi-card.png');
+    background-image: url('../img/abacaxi-card.png');
 }
 
 .container h1 {
