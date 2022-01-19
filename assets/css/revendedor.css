@@ -32,6 +32,10 @@
 
 .texto-revendedor {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto-revendedor h2 {
@@ -51,20 +55,30 @@
     color: white;
 }
 
-.btn-revendedor input {
+.btn-revendedor button {
     margin-top: 25px;
     width: 185px;
     height: 40px;
-    font-size: 16px;
-    font-weight: bold;
     color: white;
     background-color: #06832F;
     border-radius: 25px;
     /*Luizão abaixo*/
     border: none;
     outline: none;
-    top: 525.5px;
-    left: 0px;
-    position: static;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-revendedor i{
+    margin: 0 0 0 0;
+    padding-right: 10px;
+}
+
+.btn-revendedor p{
+    font-family: 'Dosis';
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
 }
