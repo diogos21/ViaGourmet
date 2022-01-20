@@ -166,3 +166,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.card img{
+    position: absolute;
+    top: -4%;
+    left: -8%;
+}
