@@ -43,10 +43,9 @@
     transition: 0.3s;
     width: 277.46px;
     height: 438px;
-    left: 0px;
-    top: 0px;
     background: #ffffff;
     margin: 10px 10px;
+    position: relative;
 }
 
 
@@ -167,8 +166,70 @@
     margin: 0 auto;
 }
 
-.card img{
+.favorito{
     position: absolute;
     top: -4%;
     left: -8%;
+}
+
+.tag{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 8px;
+}
+
+.rosa{
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(190, 0, 148, 0.25);
+    font-style: bold;
+    padding: 2px 10px 2px 10px;
+    border-radius: 25px;
+    color: #BE0094;
+}
+
+.verde{
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(114, 178, 33, 0.25);
+    font-style: bold;
+    padding: 2px 10px 2px 10px;
+    border-radius: 25px;
+    color: #72B221;
+}
+
+.vermelho{
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(178, 50, 33, 0.25);
+    font-style: bold;
+    padding: 2px 10px 2px 10px;
+    border-radius: 25px;
+    color: #B23221;
+}
+
+.azul{
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(3, 0, 128, 0.25);
+    font-style: bold;
+    padding: 2px 10px 2px 10px;
+    border-radius: 25px;
+    color: #030080;
+}
+
+.roxo{
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(91, 0, 183, 0.25);
+    font-style: bold;
+    padding: 2px 10px 2px 10px;
+    border-radius: 25px;
+    color: #5B00B7;
 }
