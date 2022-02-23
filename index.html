@@ -1,319 +1,416 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Via Gourmet</title>
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5fedd4f1bd.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5fedd4f1bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function actived() {
+        const nav = document.querySelector("nav ul");
+        console.log(nav.classList.contains("__actived"));
+        if (nav.classList.contains("__actived")) {
+          nav.classList.remove("__actived");
+        } else {
+          nav.classList.add("__actived");
+        }
+      }
+    </script>
+  </head>
 
-<body>
+  <body>
     <main>
-        <header>
-            <nav id="navbar">
-                <ul>
-                    <li> <a href="#sobre">Sobre nós </a></li>
-                    <li> <a href="#produtos">Produtos</a></li>
-                    <li><a href="#localizacao">Onde Encontrar</a></li>
-                    <li> <a href="#revendedor">Compre no Atacado</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="onda"></div>
-            <div class="gelo"></div>
-            <div class="gelo2"></div>
-            <div class="logo"></div>
-        </header>
+      <header>
+        <nav id="navbar">
+          <div class="mobile-header">
+            <div class="logo-mobile">ViaGourmet</div>
+            <div class="hamburger">
+              <input type="checkbox" id="checkbox-menu" onClick="actived()" />
 
-        <section class="sobre" id="sobre">
-            <div class="content-about">
-                <div class="imagens">
-                    <div>
-                        <img src="./assets/img/rectangle-1.png" alt="">
-                    </div>
-
-                    <div id="layout-direito">
-                        <img id='imagem2' src="./assets/img/rectangle-2.png" alt="">
-                        <img src="./assets/img/rectangle-3.png" alt="">
-                    </div>
-
-                </div>
-
-                <div class="texto">
-                    <h2>Sobre nós</h2>
-                    <hr>
-                    <p>A nossa cozinha saudável atua no mercado ofertando soluções práticas para o preparo de sucos, shakes, vitaminas, smoothies, frozens, drinks e receitas</p>
-                    <p>Produzimos Frutas, Vitaminas Mix e Receitas Detox Congeladas</p>
-                    <p>Todas selecionadas, higienizadas, porcionadas em 100g e podendo também preparar sobre medida em volumes maiores</p>
-                    <p>Atuamos em atacados e varejo, atendendo todas as necessidades dos nossos clientes!</p>
-                    <p>Venha fazer parte da nossa história!</p>
-                    <input id="botao" type="button" value="Vamos lá">
-                </div>
-
+              <label for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
             </div>
-        </section>
+          </div>
 
-        <section class="aplicacoes" id="aplicacoes">
-            <div class="wrap">
-                <div class="content-aplicacoes">
-                    <div class="texto-aplicacoes">
-                        <h2>Aplicações</h2>
-                        <p>Não sabe como utilizar nossos deliciosos produtos? <br> Veja aqui algumas idéias e muito mais
-                            <br> no nosso instagram!
-                        </p>
-                        <a id="link-aplicacoes" href="https://www.instagram.com/viagourmet_/" target="_blank">@viagourmet_</a>
-                        <hr>
-                    </div>
+          <ul>
+            <li><a href="#sobre">Sobre nós </a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#localizacao">Onde Encontrar</a></li>
+            <li><a href="#revendedor">Compre no Atacado</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="onda"></div>
+        <div class="gelo"></div>
+        <div class="gelo2"></div>
+        <div class="logo"></div>
+      </header>
 
-                    <div class="imagens-aplicacoes">
-                        <div id="cake-img">
-                            <img src="assets/img/cake-icon.svg" alt="">
-                            <p>Receitas</p>
-                        </div>
-                        <div class="card-img">
-                            <img src="assets/img/glass-icon.svg" alt="">
-                            <p>Coquitéis</p>
-                        </div>
-                        <div class="card-img">
-                            <img src="assets/img/icecream-icon.svg" alt="">
-                            <p>Sorvetes</p>
-                        </div>
-                        <div class="card-img">
-                            <img src="assets/img/juice-icon.svg" alt="">
-                            <p>Sucos</p>
-                        </div>
-                    </div>
-                </div>
+      <section class="sobre" id="sobre">
+        <div class="content-about">
+          <div class="imagens">
+            <div>
+              <img src="./assets/img/rectangle-1.png" alt="" />
             </div>
-        </section>
-        <section class="produtos" id="produtos">
-            <div class="wrap-produtos">
-                <div class="texto-produtos">
-                    <h2>Nossos Produtos</h2>
-                    <p>Ficou curioso sobre o que vendemos? <br> De uma espiadinha abaixo de alguns <br> dos nossos produtos! </p>
-                    <hr>
-                </div>
 
-                <div class="cards-produtos">
-                    <div class="card">
-                        <div class="favorito">
-                            <img src="assets/img/fav.png" alt="">
-                        </div>
-                        <div class="img-fruta1"></div>
-                        <div class="container">
-                            <h1><b>Acerola</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="verde">FRUTA</div>
-                            <div class="verde">A GRANEL 1Kg</div>
-                            <div class="verde">FRACIONADO 10x 100g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="favorito">
-                            <img src="assets/img/fav.png" alt="">
-                        </div>
-                        <div class="img-fruta2"></div>
-                        <div class="container">
-                            <h1><b>Abacaxi</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="verde">FRUTA</div>
-                            <div class="verde">A GRANEL 1Kg</div>
-                            <div class="verde">FRACIONADO 10x 100g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="favorito">
-                            <img src="assets/img/fav.png" alt="">
-                        </div>
-                        <div class="img-fruta3"></div>
-                        <div class="container">
-                            <h1><b>Morango</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="verde">FRUTA</div>
-                            <div class="verde">A GRANEL 1Kg</div>
-                            <div class="verde">FRACIONADO 10x 100g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="favorito">
-                            <img src="assets/img/fav.png" alt="">
-                        </div>
-                        <div class="img-fruta4"></div>
-                        <div class="container">
-                            <h1><b>Manga</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="verde">FRUTA</div>
-                            <div class="verde">A GRANEL 1Kg</div>
-                            <div class="verde">FRACIONADO 10x 100g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>;
-                    </div>
-                    <div class="card">
-                        <div class="img-fruta5"></div>
-                        <div class="container">
-                            <h1><b>Amora</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="azul">FRUTA ESPECIAL</div>
-                            <div class="verde">A GRANEL 1Kg</div>
-                            <div class="verde">FRACIONADO 10x 100g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-fruta6"></div>
-                        <div class="container">
-                            <h1><b>Smoothie Gourmet Vit C</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="rosa">SMOOTHIES</div>
-                            <div class="verde">100g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-fruta7"></div>
-                        <div class="container">
-                            <h1><b>Dered Detox</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="azul">DETOX GOURMET</div>
-                            <div class="verde">120g</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-fruta8"></div>
-                        <div class="container">
-                            <h1><b>Açai C/ Guaraná</b></h1>
-                            <p>A acerola é uma fruta tropical com sabor levemente ácido e com casca avermelhada e polpa amarela.
-                            </p>
-                        </div>
-                        <div class="tag">
-                            <div class="roxo">AÇAÍS PREMIUM</div>
-                            <div class="verde">POTE 500 G</div>
-                            <div class="verde">POTE 1 KG</div>
-                            <div class="verde">POTE 10 KG</div>
-                            <div class="vermelho">VALIDADE: 6 MESES</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="btn-produtos">
-                    <a href="assets/docs/AaaCARDAPIO_VIA_GOURMET_15.10.21.pdf" target="_blank">
-                        <input type="button" value="Mais Produtos">
-                    </a>
-                </div>
+            <div id="layout-direito">
+              <img id="imagem2" src="./assets/img/rectangle-2.png" alt="" />
+              <img src="./assets/img/rectangle-3.png" alt="" />
             </div>
-        </section>
+          </div>
 
-        <section class="localizacao" id="localizacao">
-            <div class="wrap-localizacao">
-                <div class="texto-localizacao">
-                    <h2>Onde Estamos?</h2>
-                    <p>Quer comprar pequenas quantidades mas não sabe onde? <br> Basta procurar nosso freezer mais próximo de você!</p>
-                    <hr>
-                </div>
+          <div class="texto">
+            <h2>Sobre nós</h2>
+            <hr />
+            <p>
+              A nossa cozinha saudável atua no mercado ofertando soluções
+              práticas para o preparo de sucos, shakes, vitaminas, smoothies,
+              frozens, drinks e receitas
+            </p>
+            <p>Produzimos Frutas, Vitaminas Mix e Receitas Detox Congeladas</p>
+            <p>
+              Todas selecionadas, higienizadas, porcionadas em 100g e podendo
+              também preparar sobre medida em volumes maiores
+            </p>
+            <p>
+              Atuamos em atacados e varejo, atendendo todas as necessidades dos
+              nossos clientes!
+            </p>
+            <p>Venha fazer parte da nossa história!</p>
+            <input id="botao" type="button" value="Vamos lá" />
+          </div>
+        </div>
+      </section>
 
-                <div class="img-localizacao">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14661.534803106262!2d-47.30712853161631!3d-23.265503680628953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf51e82d19a127%3A0x10eb00ba340b997d!2sVia%20gourmet!5e0!3m2!1spt-BR!2sbr!4v1642081809339!5m2!1spt-BR!2sbr"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+      <section class="aplicacoes" id="aplicacoes">
+        <div class="wrap">
+          <div class="content-aplicacoes">
+            <div class="texto-aplicacoes">
+              <h2>Aplicações</h2>
+              <p>
+                Não sabe como utilizar nossos deliciosos produtos? <br />
+                Veja aqui algumas idéias e muito mais <br />
+                no nosso instagram!
+              </p>
+              <a
+                id="link-aplicacoes"
+                href="https://www.instagram.com/viagourmet_/"
+                target="_blank"
+                >@viagourmet_</a
+              >
+              <hr />
             </div>
-        </section>
 
-        <section class="revendedor" id="revendedor">
-            <div class="wrap-revendedor">
-                <div class="texto-revendedor">
-                    <h2>Seja um revendedor <br> ou compre no atacado!</h2>
-                    <p>Se ficou interessado em nossos produtos e precisa em grandes quantidades? </p>
-                    <strong>Nos envie uma mensagem agora mesmo!</strong>
-                    <div class="btn-revendedor">
-                        <!-- <input type="button" value="Enviar Mensagem"> -->
-                        <button type="submit"><i class="fa fa-whatsapp"></i><p>Enviar Mensagem</p></button>
-                    </div>
-                </div>
+            <div class="imagens-aplicacoes">
+              <div id="cake-img">
+                <img src="assets/img/cake-icon.svg" alt="" />
+                <p>Receitas</p>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/glass-icon.svg" alt="" />
+                <p>Coquitéis</p>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/icecream-icon.svg" alt="" />
+                <p>Sorvetes</p>
+              </div>
+              <div class="card-img">
+                <img src="assets/img/juice-icon.svg" alt="" />
+                <p>Sucos</p>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section class="produtos" id="produtos">
+        <div class="wrap-produtos">
+          <div class="texto-produtos">
+            <h2>Nossos Produtos</h2>
+            <p>
+              Ficou curioso sobre o que vendemos? <br />
+              De uma espiadinha abaixo de alguns <br />
+              dos nossos produtos!
+            </p>
+            <hr />
+          </div>
 
-        <section class="contato" id="contato">
-            <div class="wrap-contato">
-                <div class="texto-contato">
-                    <h2>Entre em contato!</h2>
-                    <p>Preencha o formulário corretamente <br> Entraremos em contato <br> o mais breve possível</p>
-                    <hr>
-                </div>
-                <div class="formulario">
-                    <input type="text" placeholder="Nome Completo" id="">
-                    <input type="text" placeholder="E-mail" id="nome">
-                    <input type="text" placeholder="Telefone Celular" id="">
-                    <div class="formulario2">
-                        <input type="text" placeholder="Estado" id="estado">
-                        <input type="text" placeholder="Cidade" id="">
-                    </div>
-                    <input type="text" placeholder="Mensagem" id="">
-                    <div class="btn-contato">
-                        <input type="button" value="Enviar Mensagem">
-                    </div>
-                </div>
+          <div class="cards-produtos">
+            <div class="card">
+              <div class="favorito">
+                <img src="assets/img/fav.png" alt="" />
+              </div>
+              <div class="img-fruta1"></div>
+              <div class="container">
+                <h1><b>Acerola</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="verde">FRUTA</div>
+                <div class="verde">A GRANEL 1Kg</div>
+                <div class="verde">FRACIONADO 10x 100g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
             </div>
-        </section>
+            <div class="card">
+              <div class="favorito">
+                <img src="assets/img/fav.png" alt="" />
+              </div>
+              <div class="img-fruta2"></div>
+              <div class="container">
+                <h1><b>Abacaxi</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="verde">FRUTA</div>
+                <div class="verde">A GRANEL 1Kg</div>
+                <div class="verde">FRACIONADO 10x 100g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="favorito">
+                <img src="assets/img/fav.png" alt="" />
+              </div>
+              <div class="img-fruta3"></div>
+              <div class="container">
+                <h1><b>Morango</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="verde">FRUTA</div>
+                <div class="verde">A GRANEL 1Kg</div>
+                <div class="verde">FRACIONADO 10x 100g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="favorito">
+                <img src="assets/img/fav.png" alt="" />
+              </div>
+              <div class="img-fruta4"></div>
+              <div class="container">
+                <h1><b>Manga</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="verde">FRUTA</div>
+                <div class="verde">A GRANEL 1Kg</div>
+                <div class="verde">FRACIONADO 10x 100g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+              ;
+            </div>
+            <div class="card">
+              <div class="img-fruta5"></div>
+              <div class="container">
+                <h1><b>Amora</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="azul">FRUTA ESPECIAL</div>
+                <div class="verde">A GRANEL 1Kg</div>
+                <div class="verde">FRACIONADO 10x 100g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-fruta6"></div>
+              <div class="container">
+                <h1><b>Smoothie Gourmet Vit C</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="rosa">SMOOTHIES</div>
+                <div class="verde">100g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-fruta7"></div>
+              <div class="container">
+                <h1><b>Dered Detox</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="azul">DETOX GOURMET</div>
+                <div class="verde">120g</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-fruta8"></div>
+              <div class="container">
+                <h1><b>Açai C/ Guaraná</b></h1>
+                <p>
+                  A acerola é uma fruta tropical com sabor levemente ácido e com
+                  casca avermelhada e polpa amarela.
+                </p>
+              </div>
+              <div class="tag">
+                <div class="roxo">AÇAÍS PREMIUM</div>
+                <div class="verde">POTE 500 G</div>
+                <div class="verde">POTE 1 KG</div>
+                <div class="verde">POTE 10 KG</div>
+                <div class="vermelho">VALIDADE: 6 MESES</div>
+              </div>
+            </div>
+          </div>
 
-        <section class="social-medias">
-            <div class="wrap-media">
-                <div class="img-media"></div>
-                <div class="texto-media">
-                    <h2>Contato</h2>
-                    <p>Telefone: (11) 91234-5678</p>
-                    <p>Email: contato@viagourmet.com</p>
-                    <p>Endereço: Rua Fulano de Ciclano, 123</p>
-                    <div class="social-list">
-                        <ul>
-                            <li class="li"><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="li"><a href=""><i class="fab fa-twitter"></i></a></li>
-                            <li class="li"><a href=""><i class="fab fa-instagram"></i></a></li>
-                            <li class="li"><a href=""><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+          <div id="btn-produtos">
+            <a
+              href="assets/docs/AaaCARDAPIO_VIA_GOURMET_15.10.21.pdf"
+              target="_blank"
+            >
+              <input type="button" value="Mais Produtos" />
+            </a>
+          </div>
+        </div>
+      </section>
 
-        <footer class="rodape">
-            <div class="wrap-rodape">
-                <div class="direitos-autorais">
-                    <p>Copyright © 2021 Via Gourmet | Todos os direitos reservados.</p>
-                </div>
+      <section class="localizacao" id="localizacao">
+        <div class="wrap-localizacao">
+          <div class="texto-localizacao">
+            <h2>Onde Estamos?</h2>
+            <p>
+              Quer comprar pequenas quantidades mas não sabe onde? <br />
+              Basta procurar nosso freezer mais próximo de você!
+            </p>
+            <hr />
+          </div>
+
+          <div class="img-localizacao">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14661.534803106262!2d-47.30712853161631!3d-23.265503680628953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf51e82d19a127%3A0x10eb00ba340b997d!2sVia%20gourmet!5e0!3m2!1spt-BR!2sbr!4v1642081809339!5m2!1spt-BR!2sbr"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="revendedor" id="revendedor">
+        <div class="wrap-revendedor">
+          <div class="texto-revendedor">
+            <h2>
+              Seja um revendedor <br />
+              ou compre no atacado!
+            </h2>
+            <p>
+              Se ficou interessado em nossos produtos e precisa em grandes
+              quantidades?
+            </p>
+            <strong>Nos envie uma mensagem agora mesmo!</strong>
+            <div class="btn-revendedor">
+              <!-- <input type="button" value="Enviar Mensagem"> -->
+              <button type="submit">
+                <i class="fa fa-whatsapp"></i>
+                <p>Enviar Mensagem</p>
+              </button>
             </div>
-        </footer>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato" id="contato">
+        <div class="wrap-contato">
+          <div class="texto-contato">
+            <h2>Entre em contato!</h2>
+            <p>
+              Preencha o formulário corretamente <br />
+              Entraremos em contato <br />
+              o mais breve possível
+            </p>
+            <hr />
+          </div>
+          <div class="formulario">
+            <input type="text" placeholder="Nome Completo" id="" />
+            <input type="text" placeholder="E-mail" id="nome" />
+            <input type="text" placeholder="Telefone Celular" id="" />
+            <div class="formulario2">
+              <input type="text" placeholder="Estado" id="estado" />
+              <input type="text" placeholder="Cidade" id="" />
+            </div>
+            <input type="text" placeholder="Mensagem" id="" />
+            <div class="btn-contato">
+              <input type="button" value="Enviar Mensagem" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-medias">
+        <div class="wrap-media">
+          <div class="img-media"></div>
+          <div class="texto-media">
+            <h2>Contato</h2>
+            <p>Telefone: (11) 91234-5678</p>
+            <p>Email: contato@viagourmet.com</p>
+            <p>Endereço: Rua Fulano de Ciclano, 123</p>
+            <div class="social-list">
+              <ul>
+                <li class="li">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="li">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="li">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="li">
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <div class="wrap-rodape">
+          <div class="direitos-autorais">
+            <p>Copyright © 2021 Via Gourmet | Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>
