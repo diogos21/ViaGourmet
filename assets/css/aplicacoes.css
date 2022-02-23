@@ -1,73 +1,98 @@
-.aplicacoes{
-    width: 100%;
+.aplicacoes {
     margin: auto;
     padding: 100px 0px;
     font-family: 'Dosis';
 }
 
-.wrap{
+.wrap {
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.texto-aplicacoes{
+.texto-aplicacoes {
     text-align: center;
 }
 
-.texto-aplicacoes h2{
-    font-size: 50px;
+.texto-aplicacoes h2 {
+    font-size: 5rem;
     font-weight: 900;
     margin-bottom: 20px;
-
     color: #1c1c1c;
 }
 
-.texto-aplicacoes p{
-    font-size: 20px;
+.texto-aplicacoes p {
+    font-size: 2rem;
     color: #6a6a6a;
 }
 
-.texto-aplicacoes hr{
+.texto-aplicacoes hr {
     width: 12%;
-    
     margin-bottom: 35px;
     margin-top: 12px;
     height: 2px;
-
     background-color: #72b221;
 }
 
-#link-aplicacoes{
-    font-size: 20px;
+#link-aplicacoes {
+    font-size: 2rem;
     font-weight: bold;
     color: #AB193E;
 }
 
-.imagens-aplicacoes{
+.imagens-aplicacoes {
     margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.imagens-aplicacoes div{
+@media (max-width: 390px) {
+    .imagens-aplicacoes {
+        flex-wrap: wrap;
+    }
+    .imagens-aplicacoes div {
+        width: 48%;
+        margin-left: 0%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}
 
+@media (max-width: 900px) {
+    .imagens-aplicacoes {
+        flex-wrap: wrap;
+    }
+    .imagens-aplicacoes div {
+        width: 50%;
+        margin-left: 0%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}
+
+.imagens-aplicacoes div {
     text-align: center;
-
-    font-size: 25px;
-    
-
+    font-size: 2.5rem;
     color: #6a6a6a;
 }
 
-.card-img{
+.card-img {
     margin-left: 80px;
 }
 
-.imagens-aplicacoes p{
+.imagens-aplicacoes p {
     margin-top: 20px;
 }
 
-#cake-img{
+#cake-img {
     margin-top: 11px;
 }

@@ -6,12 +6,19 @@
 }
 
 .wrap-media {
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 640px) {
+    .wrap-media {
+        flex-direction: column;
+    }
 }
 
 .img-media {
@@ -26,13 +33,13 @@
 }
 
 .texto-media h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: white;
 }
 
 .texto-media p {
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: white;
     opacity: 60%;
     margin-top: 10px;
@@ -45,7 +52,7 @@
 }
 
 i {
-    font-size: 25px;
+    font-size: 2.5rem;
     margin-top: 20px;
     margin-right: 20px;
 }

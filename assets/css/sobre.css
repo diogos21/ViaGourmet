@@ -1,66 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
-
-.sobre{
+.sobre {
     background-color: #f5f5f5;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     /* margin-left: 15%; */
     padding: 100px 0px;
     margin: auto;
-
     font-family: 'Dosis';
 }
 
-.content-about{
+.content-about {
     display: flex;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.imagens{
+@media (max-width: 390px) {
+    .content-about {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-about {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.imagens {
     display: flex;
 }
 
-#imagem2{
+#imagem2 {
     margin-bottom: 29px;
 }
 
-#layout-direito img{
+#layout-direito img {
     margin-left: 15%;
 }
 
-.texto{
+@media (max-width: 390px) {
+    #layout-direito img {
+        margin-left: 5%;
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 900px) {
+    #layout-direito img {
+        margin-left: 5%;
+    }
+}
+
+.texto {
     width: 50%;
     margin-left: 15%;
 }
 
-.texto h2{
-    font-size: 50px;
+.texto h2 {
+    font-size: 5rem;
     font-weight: 900;
     margin-bottom: 20px;
-
     color: #1c1c1c;
 }
 
-.texto p{
+.texto p {
     margin-bottom: 5%;
-
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
-
     color: #6a6a6a;
 }
 
-.texto input{
+.texto input {
     width: 128px;
     height: 53px;
-
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
-    
     color: white;
     background-color: #72b221;
-
     border-radius: 25px;
     /*Luizão abaixo*/
     border: none;
@@ -71,12 +90,42 @@
     cursor: pointer;
 }
 
-.texto hr{
+.texto hr {
     width: 30%;
     margin-left: 0;
     margin-bottom: 35px;
     height: 2px;
-
     background-color: #72b221;
 }
 
+@media (max-width: 390px) {
+    body .texto p {
+        font-size: 1.5rem;
+    }
+    body .texto hr {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    body .texto {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    body .texto p {
+        font-size: 2.2rem;
+    }
+    body .texto hr {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    body .texto {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+}

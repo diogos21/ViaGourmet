@@ -20,7 +20,8 @@
 }
 
 .wrap-revendedor {
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -39,19 +40,19 @@
 }
 
 .texto-revendedor h2 {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 900;
     margin-bottom: 20px;
     color: white;
 }
 
 .texto-revendedor p {
-    font-size: 20px;
+    font-size: 2rem;
     color: white;
 }
 
 .texto-revendedor strong {
-    font-size: 20px;
+    font-size: 2rem;
     color: white;
 }
 
@@ -71,14 +72,14 @@
     align-items: center;
 }
 
-.btn-revendedor i{
+.btn-revendedor i {
     margin: 0 0 0 0;
     padding-right: 10px;
 }
 
-.btn-revendedor p{
+.btn-revendedor p {
     font-family: 'Dosis';
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
     color: white;
 }

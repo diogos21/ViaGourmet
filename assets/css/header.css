@@ -1,15 +1,16 @@
-header{
+header {
     height: 100vh;
     background-image: url('../img/header.png');
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-color: transparent;
     background-size: cover;
     /* background-size: 2100px; */
     position: relative;
+    display: none;
 }
 
-.onda{
+.onda {
     background-image: url('../img/header2.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -22,7 +23,7 @@ header{
     background-color: transparent;
 }
 
-.gelo{
+.gelo {
     background-image: url('../img/gelo-1.png');
     background-repeat: no-repeat;
     left: 5%;
@@ -34,7 +35,7 @@ header{
     position: absolute;
 }
 
-.gelo2{
+.gelo2 {
     background-image: url('../img/gelo-2.png');
     background-repeat: no-repeat;
     right: 2%;
@@ -46,7 +47,7 @@ header{
     position: absolute;
 }
 
-.logo{
+.logo {
     background-image: url('../img/logo-1.png');
     background-repeat: no-repeat;
     bottom: 8%;

@@ -15,14 +15,14 @@
 }
 
 .texto-localizacao h2 {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 900;
     margin-bottom: 20px;
     color: #1c1c1c;
 }
 
 .texto-localizacao p {
-    font-size: 20px;
+    font-size: 2rem;
     color: #6a6a6a;
 }
 
@@ -35,6 +35,19 @@
 }
 
 iframe {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     border-radius: 50px;
+}
+
+@media (max-width: 390px) {
+    iframe {
+        width: 95%;
+        height: 30vh;
+        border-radius: 20px;
+    }
+    .localizacao {
+        width: 90%;
+        text-align: center;
+    }
 }

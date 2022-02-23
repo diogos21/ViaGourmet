@@ -94,3 +94,9 @@ i {
 p {
     margin: 0;
 }
+
+@media (max-width: 757px) {
+    html {
+        font-size: 50%;
+    }
+}

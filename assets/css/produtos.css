@@ -12,14 +12,14 @@
 }
 
 .texto-produtos h2 {
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 900;
     margin-bottom: 20px;
     color: #1c1c1c;
 }
 
 .texto-produtos p {
-    font-size: 20px;
+    font-size: 2rem;
     color: #6a6a6a;
 }
 
@@ -116,20 +116,20 @@
 }
 
 .container h1 {
-    font-family: Dosis;
+    font-family: 'Dosis';
     font-weight: 600;
     font-style: normal;
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-top: 24px;
     margin-left: 24px;
     margin-right: 24px;
 }
 
 .container p {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #6a6a6a;
     margin-top: 10px;
     margin-left: 24px;
@@ -147,7 +147,7 @@
 #btn-produtos input {
     width: 128px;
     height: 53px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
     color: white;
     background-color: #72b221;
@@ -162,17 +162,18 @@
 }
 
 .wrap-produtos {
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.favorito{
+.favorito {
     position: absolute;
     top: -4%;
     left: -8%;
 }
 
-.tag{
+.tag {
     display: flex;
     margin-top: 5px;
     padding-left: 20px;
@@ -181,10 +182,10 @@
     justify-content: left;
     font-family: 'Poppins';
     font-weight: 700;
-    font-size: 8px;
+    font-size: 0.8rem;
 }
 
-.rosa{
+.rosa {
     margin-right: 5px;
     margin-top: 5px;
     background-color: rgba(190, 0, 148, 0.25);
@@ -194,7 +195,7 @@
     color: #BE0094;
 }
 
-.verde{
+.verde {
     margin-right: 5px;
     margin-top: 5px;
     background-color: rgba(114, 178, 33, 0.25);
@@ -204,7 +205,7 @@
     color: #72B221;
 }
 
-.vermelho{
+.vermelho {
     margin-right: 5px;
     margin-top: 5px;
     background-color: rgba(178, 50, 33, 0.25);
@@ -214,7 +215,7 @@
     color: #B23221;
 }
 
-.azul{
+.azul {
     margin-right: 5px;
     margin-top: 5px;
     background-color: rgba(3, 0, 128, 0.25);
@@ -224,7 +225,7 @@
     color: #030080;
 }
 
-.roxo{
+.roxo {
     margin-right: 5px;
     margin-top: 5px;
     background-color: rgba(91, 0, 183, 0.25);
