@@ -84,7 +84,7 @@
   color: white;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 428px) {
   .texto-revendedor h2 {
     font-size: 3.5rem;
   }

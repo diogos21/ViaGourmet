@@ -18,6 +18,12 @@ header {
   position: relative;
 }
 
+@media (max-width: 640px) {
+  .banner {
+    height: 40vh;
+  }
+}
+
 .onda {
   background-image: url("../img/header2.png");
   background-size: 100%;
@@ -40,6 +46,16 @@ header {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+@media (max-width: 640px) {
+  .gelo {
+    display: none;
+  }
+
+  .gelo2 {
+    display: none;
+  }
 }
 
 .gelo2 {
@@ -66,5 +82,6 @@ header {
 }
 
 .logo img {
-  width: 2000px;
+  width: 1000px;
+  margin-top: 100px;
 }
